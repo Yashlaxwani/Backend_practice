@@ -1,3 +1,4 @@
+
 import {v2 as cloudinary} from "cloudinary"
 import fs from "fs" //file system -to write,read and modify
 
@@ -29,3 +30,6 @@ const uploadOnCloudinary = async (localFilePath) => {
 
 
 export {uploadOnCloudinary}
+
+
+
