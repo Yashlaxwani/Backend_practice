@@ -4,6 +4,8 @@ import {registerUser} from "../controllers/user.controller.js";
 
 const router = Router()
 
+//to make route
+
 router.route("/register").post(
     upload.fields([//single upload(multer)
         {
